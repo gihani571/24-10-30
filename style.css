@@ -1,19 +1,25 @@
+body{
+    background-image: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
 h1{
-    text-align: center;
-
-
+    font-size: 50px;
+    color: white;
 }
 p{
-    text-align: center;
+    font-size: 30px; 
+    color: white;
 }
-
 #txtGuess{
-    margin-left: 75px;
     background-color: aqua;
-    
+
+}
+input{
+    font-size: 30px; 
 }
 #guessBtn{
-    align-items: center;
     background-color: blue;
     color: white;
 }
